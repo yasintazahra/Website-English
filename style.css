@@ -1,0 +1,57 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eaa4ee;
+    color: #333;
+  }
+  header {
+    background-color: #ff08e6;
+    padding: 20px;
+    text-align: center;
+    color: white;
+  }
+  nav {
+    display: flex;
+    justify-content: center;
+    background-color: #b352b9;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  nav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    display: inline-block;
+  }
+  nav a:hover {
+    background-color: #99006b;
+  }
+  main {
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+  }
+  .lesson {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+
+  .translation {
+  font-style: italic;
+  color: #555;
+  font-size: small;
+  }
+
+  footer {
+    text-align: center;
+    background-color: #ff08e6;
+    color: white;
+    padding: 10px;
+    margin-top: 40px;
+  }
